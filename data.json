@@ -1,0 +1,119 @@
+[
+ {
+  "nome": "Arroio do Meio",
+  "confirmados": "1521",
+  "novosconfirmados": "61",
+  "incidencia": "7310.7",
+  "obitos": "14",
+  "novosobitos": "1",
+  "mortalidade": "67.3"
+ },
+ {
+  "nome": "Cachoeira do Sul",
+  "confirmados": "4022",
+  "novosconfirmados": "108",
+  "incidencia": "4892.9",
+  "obitos": "57",
+  "novosobitos": "2",
+  "mortalidade": "69.3"
+ },
+ {
+  "nome": "Candelária",
+  "confirmados": "1275",
+  "novosconfirmados": "40",
+  "incidencia": "4065.0",
+  "obitos": "24",
+  "novosobitos": "0",
+  "mortalidade": "76.5"
+ },
+ {
+  "nome": "Lajeado",
+  "confirmados": "11025",
+  "novosconfirmados": "361",
+  "incidencia": "13122.8",
+  "obitos": "115",
+  "novosobitos": "3",
+  "mortalidade": "136.9"
+ },
+ {
+  "nome": "Passo do Sobrado",
+  "confirmados": "152",
+  "novosconfirmados": "3",
+  "incidencia": "2325.9",
+  "obitos": "7",
+  "novosobitos": "0",
+  "mortalidade": "107.1"
+ },
+ {
+  "nome": "Rio Pardo",
+  "confirmados": "1048",
+  "novosconfirmados": "2",
+  "incidencia": "2738.1",
+  "obitos": "35",
+  "novosobitos": "0",
+  "mortalidade": "91.4"
+ },
+ {
+  "nome": "Santa Cruz do Sul",
+  "confirmados": "10663",
+  "novosconfirmados": "123",
+  "incidencia": "8176.1",
+  "obitos": "105",
+  "novosobitos": "2",
+  "mortalidade": "80.5"
+ },
+ {
+  "nome": "Sinimbu",
+  "confirmados": "462",
+  "novosconfirmados": "9",
+  "incidencia": "4541.9",
+  "obitos": "10",
+  "novosobitos": "1",
+  "mortalidade": "98.3"
+ },
+ {
+  "nome": "Sobradinho",
+  "confirmados": "863",
+  "novosconfirmados": "21",
+  "incidencia": "5766.0",
+  "obitos": "7",
+  "novosobitos": "0",
+  "mortalidade": "46.8"
+ },
+ {
+  "nome": "Taquari",
+  "confirmados": "2495",
+  "novosconfirmados": "13",
+  "incidencia": "9288.2",
+  "obitos": "46",
+  "novosobitos": "0",
+  "mortalidade": "171.2"
+ },
+ {
+  "nome": "Vale Verde",
+  "confirmados": "142",
+  "novosconfirmados": "4",
+  "incidencia": "4060.6",
+  "obitos": "4",
+  "novosobitos": "0",
+  "mortalidade": "114.4"
+ },
+ {
+  "nome": "Venâncio Aires",
+  "confirmados": "6711",
+  "novosconfirmados": "152",
+  "incidencia": "9378.9",
+  "obitos": "74",
+  "novosobitos": "1",
+  "mortalidade": "103.4"
+ },
+ {
+  "nome": "Vera Cruz",
+  "confirmados": "1279",
+  "novosconfirmados": "73",
+  "incidencia": "4761.2",
+  "obitos": "15",
+  "novosobitos": "0",
+  "mortalidade": "55.8"
+ }
+]
