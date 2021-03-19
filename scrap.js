@@ -6,12 +6,12 @@ const client = redis.createClient(process.env.REDIS_URL);
 
 const ValeDoTaquari = [
     'Arroio do Meio','Cachoeira do Sul','Candelária','Lajeado','Passo do Sobrado','Rio Pardo',
-    'Santa Cruz do Sul','Sinimbu','Sobradinho','Taquari','Vale Verde','Venâncio Aires','Vera Cruz'
+    'Santa Cruz do Sul','Sinimbu','Sobradinho','Taquari','Vale do Sol','Vale Verde','Venâncio Aires','Vera Cruz'
 ]
 
 let Data;
 let DataFinal = [];
-schedule.scheduleJob('0 */1 * * *', function(){
+
     (async () => {
         
         const browser = await puppeteer.launch({
@@ -73,13 +73,13 @@ schedule.scheduleJob('0 */1 * * *', function(){
         }//Fecha for
             await browser.close();
 
-        console.log(DataFinal)
+        //console.log(DataFinal)
         //Escreve JSON
-        client.set('dadosx' ,DataFinal, function(err, reply) {
-            console.log(reply);
-          });
-
-
-
+        client.set('dadosx', JSON.stringify(DataFinal, null, 2), (err, reply) => {
+        if (err) throw err;
+        console.log('Dados Recuperados: ', reply)
+    
+         });
+        
+        
     })();
-});
